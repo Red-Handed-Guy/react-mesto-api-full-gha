@@ -1,0 +1,16 @@
+.log-reg {
+  max-width: 358px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0 0 0;
+}
+
+@media (max-width: 500px) {
+  .log-reg {
+    max-width: 260px;
+    padding: 36px 0 0 0;
+  }
+}

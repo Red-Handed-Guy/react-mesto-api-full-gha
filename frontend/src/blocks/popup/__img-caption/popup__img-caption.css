@@ -1,0 +1,9 @@
+.popup__img-caption {
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 8.5px;
+  max-width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}

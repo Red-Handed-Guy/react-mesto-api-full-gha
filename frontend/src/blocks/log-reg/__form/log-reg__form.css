@@ -1,0 +1,13 @@
+.log-reg__form {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .log-reg__form {
+    margin-top: 37px;
+  }
+}

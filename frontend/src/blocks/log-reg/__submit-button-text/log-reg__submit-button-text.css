@@ -1,0 +1,13 @@
+.log-reg__submit-button-text {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 14px 0;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .log-reg__submit-button-text {
+    font-size: 16px;
+  }
+}

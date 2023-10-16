@@ -1,0 +1,13 @@
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0 0 0;
+}
+
+@media (max-width: 400px) {
+  .header__wrapper {
+    padding: 28px 0 0 0;
+  }
+}

@@ -1,0 +1,15 @@
+.header__slider-link {
+  color: #a9a9a9;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0 0 0 0;
+  cursor: pointer;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.header__slider-link:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,20 @@
+.header__slider {
+  height: 0px;
+  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 18px;
+  width: 100%;
+  display: flex;
+  visibility: none;
+  transition: height 0.4s, overflow 0.4s, padding 0.4s linear;
+}
+
+@media (min-width: 500px) {
+  .header__slider {
+    display: none;
+  }
+}

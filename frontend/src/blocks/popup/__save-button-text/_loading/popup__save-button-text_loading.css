@@ -1,0 +1,10 @@
+.popup__save-button-text_loading {
+  clip-path: inset(0 0.81em 0 0);
+  animation: loading 1.5s steps(4) infinite;
+}
+
+@keyframes loading {
+  to {
+    clip-path: inset(0 -0.27em 0 0);
+  }
+}

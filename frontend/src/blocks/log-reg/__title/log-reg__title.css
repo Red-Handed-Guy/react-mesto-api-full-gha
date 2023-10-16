@@ -1,0 +1,14 @@
+.log-reg__title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  margin: 0;
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .log-reg__title {
+    font-size: 20px;
+  }
+}

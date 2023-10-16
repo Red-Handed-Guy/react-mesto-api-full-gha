@@ -1,0 +1,19 @@
+.log-reg__submit-button {
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  margin: 217px 0 0 0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.log-reg__submit-button:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 500px) {
+  .log-reg__submit-button {
+    margin: 172px 0 0 0;
+  }
+}

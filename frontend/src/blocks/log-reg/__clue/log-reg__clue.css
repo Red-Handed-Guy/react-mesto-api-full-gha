@@ -1,0 +1,12 @@
+.log-reg__clue {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 15px 0 0 0;
+}
+
+@media (max-width: 500px) {
+  .log-reg__clue {
+    margin: 20px 0 0 0;
+  }
+}

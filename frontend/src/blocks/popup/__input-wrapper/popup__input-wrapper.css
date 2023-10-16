@@ -1,0 +1,9 @@
+.popup__input-wrapper {
+  margin: 0 0 29px 0;
+}
+
+@media (max-width: 400px) {
+  .popup__input-wrapper {
+    margin: 0 0 26px 0;
+  }
+}
