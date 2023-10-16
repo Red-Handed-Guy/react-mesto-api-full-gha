@@ -16,7 +16,10 @@ app.use(express.urlencoded({ extended: true }));
 
 mongoose.connect(MDB_URL, {
   useNewUrlParser: true,
-});
+})
+.then(() => console.log('Connected to MongoDB'))
+.catch(err => console.log(err));
+
 app.use(cookieParser());
 
 app.use(requestLogger);
@@ -30,13 +33,6 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
-
-app.use((req, res, next) => {
-  console.log('НАЧИНАЙ ЗДЕСЬ');
-  console.log(req.method);
-  console.log(req.body);
-  next();
-});
 
 app.use(require('./routes/index'));
 
@@ -55,4 +51,6 @@ app.use((err, req, res, next) => {
   }
 });
 
-app.listen(PORT);
+app.listen(PORT, () => {
+  console.log(`App start on PORT ${PORT}`)
+});
