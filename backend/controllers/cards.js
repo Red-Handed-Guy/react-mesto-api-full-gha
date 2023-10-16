@@ -23,7 +23,7 @@ module.exports.createCard = (req, res, next) => {
       const {
         owner, likes, _id, createdAt,
       } = card;
-      res.send({
+      res.status(201).send({
         name,
         link,
         owner,
