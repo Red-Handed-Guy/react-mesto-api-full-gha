@@ -1,4 +1,6 @@
-const BASE_URL = 'http://127.0.0.1:3000'
+const { NODE_ENV, REACT_APP_BASE_URL } = process.env;
+
+const BASE_URL = NODE_ENV === 'production' ? REACT_APP_BASE_URL : 'http://127.0.0.1:3000'
 
 function getResponseData(res) {
   if (res.ok) {

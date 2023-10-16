@@ -1,3 +1,5 @@
+const { NODE_ENV, REACT_APP_BASE_URL } = process.env;
+
 class Api {
   constructor({ link, headers }) {
     this._fetchLink = link
@@ -73,7 +75,7 @@ class Api {
 }
 
 const api = new Api({
-  link: 'http://127.0.0.1:3000',
+  link: NODE_ENV === 'production' ? REACT_APP_BASE_URL : 'http://127.0.0.1:3000',
   headers: { 'Content-Type': 'application/json' },
 })
 
