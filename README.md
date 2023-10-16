@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.15.122
+IP 158.160.15.122
 
 Frontend https://red.nomoredomainsrocks.ru/
 
