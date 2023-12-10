@@ -28,11 +28,13 @@
 
 ## Tech Stack
 
-**Client:** ![Static Badge](https://img.shields.io/badge/HTML-gray?style=for-the-badge&logo=HTML5)![Static Badge](https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%23fff&color=%23254BDD)
+**Client:** 
+![Static Badge](https://img.shields.io/badge/HTML-gray?style=for-the-badge&logo=HTML5)![Static Badge](https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%23fff&color=%23254BDD)
 ![Static Badge](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript&logoColor=%23EFD81D&color=%23000)
 ![Static Badge](https://img.shields.io/badge/React-black?style=for-the-badge&logo=React)
 
-**Server:** ![Static Badge](https://img.shields.io/badge/Node.js-teal?style=for-the-badge&logo=Node.js&logoColor=%2302DC02&color=%23F7F7F7)
+**Server:**
+![Static Badge](https://img.shields.io/badge/Node.js-teal?style=for-the-badge&logo=Node.js&logoColor=%2302DC02&color=%23F7F7F7)
 ![Static Badge](https://img.shields.io/badge/Express.js-black?style=for-the-badge&logo=Express&logoColor=%23fff&color=%23EFD81D)
 ![Static Badge](https://img.shields.io/badge/MongoDB-teal?style=for-the-badge&logo=MongoDB&logoColor=%2300ED64&color=%23001E2B)
 
