@@ -29,7 +29,8 @@
 ## Tech Stack
 
 **Client:** 
-![Static Badge](https://img.shields.io/badge/HTML-gray?style=for-the-badge&logo=HTML5)![Static Badge](https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%23fff&color=%23254BDD)
+![Static Badge](https://img.shields.io/badge/HTML-gray?style=for-the-badge&logo=HTML5)
+![Static Badge](https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=CSS3&logoColor=%23fff&color=%23254BDD)
 ![Static Badge](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript&logoColor=%23EFD81D&color=%23000)
 ![Static Badge](https://img.shields.io/badge/React-black?style=for-the-badge&logo=React)
 
