@@ -41,10 +41,9 @@
 
 
 ## Demo
-
-Ссылка на рабочее приложение: https://red.nomoredomainsrocks.ru/
-
-Ссылка на Api: https://api.red.nomoredomainsrocks.ru/
+IP 158.160.15.122
+Frontend https://red.nomoredomainsrocks.ru/
+Backend https://api.red.nomoredomainsrocks.ru/
 
 
 ## Related
