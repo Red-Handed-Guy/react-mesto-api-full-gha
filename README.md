@@ -49,6 +49,50 @@ Frontend https://red.nomoredomainsrocks.ru/
 Backend https://api.red.nomoredomainsrocks.ru/
 
 
+## Deployment(front)
+
+Работает с версиями `NodeJS v20.10.0` и `npm 10.2.3`
+
+1) Скачать архив с ветки Main
+2) Разархивировать в любую папку
+3) С помощью терминала git перейти в эту папку, затем в папку `/frontend`
+
+4) Установить зависимости командой
+```bash
+  npm ci
+```
+5) Собрать билд командой
+```bash
+  npm run build
+```
+6) Запустить билд командой
+```bash
+  npm run start
+```
+7) Клиент запустится на 3001 порту (поменяйте localhost на 127.0.0.1 в адресной строке) и будет посылать запросы на адрес `http://127.0.0.1:3000`
+
+
+## Deployment
+
+Работает с версиями `NodeJS v20.10.0` и `npm 10.2.3`
+
+1) Для корректной работы серера необходимо установить [MongoDB](https://mongodb.prakticum-team.ru/try/download/community-kubernetes-operator) версии 4.4.27
+2) Скачать архив с ветки Main
+3) Разархивировать в любую папку
+4) С помощью терминала git перейти в эту папку, затем в папку `/backend`
+
+5) Установить зависимости командой
+```bash
+  npm ci
+```
+6) Запустить командой
+```bash
+  npm run start
+```
+7) Запустить MongoDB
+8) Сервер по-умолчанию будет работать на 3000 порту (поменяйте localhost на 127.0.0.1 в адресной строке) и будет принимать запросы с адреса `http://127.0.0.1:3001`
+
+
 ## Related
 
 [Макет_1](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?type=design&node-id=0-1&mode=design&t=uVVoqijUMwOBA54Q-0)
