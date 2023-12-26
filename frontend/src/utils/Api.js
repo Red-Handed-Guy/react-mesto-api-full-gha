@@ -29,7 +29,6 @@ class Api {
   }
 
   setNewCard({ name, link }) {
-    console.log({ name, link }, 'dspfjvajnsfdopivnsfd')
     return fetch(`${this._fetchLink}/cards`, {
       method: 'POST',
       headers: this._headers,
