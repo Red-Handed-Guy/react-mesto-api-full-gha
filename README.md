@@ -72,7 +72,7 @@ Backend https://api.red.nomoredomainsrocks.ru/
 7) Клиент запустится на 3001 порту (поменяйте localhost на 127.0.0.1 в адресной строке) и будет посылать запросы на адрес `http://127.0.0.1:3000`
 
 
-## Deployment
+## Deployment(back)
 
 Работает с версиями `NodeJS v20.10.0` и `npm 10.2.3`
 
